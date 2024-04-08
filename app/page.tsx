@@ -37,9 +37,10 @@ export default function Page() {
       <img src="/back.png" alt="Logo" className={styles.logo} />
       <h1 className={styles.title}>Memories Brought Back</h1>
       <p className={styles.description}>
-        Restore your cherished memories with our advanced image restoration app.
+        Restore your cherished memories with our help.
         Upload your old or damaged photos and watch them come back to life!
-      </p>
+        </p>
+        
       <div className={styles.uploadSection}>
       <input
           id="file_upload"
@@ -50,7 +51,7 @@ export default function Page() {
           aria-label="File upload"
         />
         <label htmlFor="file_upload" className={styles.uploadButton}>
-          Choose file
+          Choose Image
         </label>
       </div>
       <button

@@ -21,7 +21,7 @@
     font-family: 'Calligraphy Font', cursive;
     font-size: 2rem;
     font-weight: bold;
-    color: #333;
+    color: #333333;
     text-align: center;
     margin-bottom: 1rem;
   }
@@ -32,6 +32,7 @@
     text-align: center;
     max-width: 600px;
     margin-bottom: 2rem;
+    margin-top: 1rem;
   }
   
   .uploadSection {
@@ -40,9 +41,10 @@
   }
   
   .uploadSection label {
-    font-size: 1.3rem;
-    font-weight: 500;
-    font-style: italic;
+    font-family: 'Calligraphy Font', cursive;
+    font-size: 1.rem;
+    font-weight: 100;
+    font-style: inherit;
     color: #ffffff;
     margin-bottom: 0.5rem;
   }
@@ -54,14 +56,15 @@
   }
   
   .processButton {
-    padding: 0.5rem 1.5rem;
-
+    padding: 0.9rem 1.5rem;
+    font-family: 'Calligraphy Font', cursive;
     font-size: 0.7rem;
+    font-style: inherit;
     font-weight: 100 ;
     color: #fff;
-    background-color: #4d4b45;
+    background-color: #25758f;
     border: none;
-    border-radius: 4px;
+    border-radius: 100px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
@@ -96,9 +99,9 @@
     font-size: 1rem;
     font-weight: bold;
     color: #181815; /* Cream color text to match the background */
-    background-color: #072b56;
+    background-color: #aa5b0b;
      /* Dark color to match the logo */
-    border-radius: 0.8rem;
+    border-radius: 0.9rem;
     
     cursor: pointer;
     transition: background-color 0.3s ease;
